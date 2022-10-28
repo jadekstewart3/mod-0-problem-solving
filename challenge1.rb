@@ -10,13 +10,11 @@
 
 house_mates = ["Jade", "Phil", "Robert", "Billy", "Endo", "Shadow", "Noche"]
 
-# def four_letter_word(words)
-    house_mates.each do |word|
-         if word.length == 4
-            puts word
-    end
-end
+def four_letter_word(words)
+    words.each do |word|
+        puts word if word.length == 4  
+         end
+        end
+        
+four_letter_word(house_mates)
 
-# p four_letter_word(house_mates)
-
-# => "Jade" "Phil" "Endo"
